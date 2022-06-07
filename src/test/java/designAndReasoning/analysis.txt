@@ -1,0 +1,52 @@
+Q1.
+A. Product owner:
+I would ask the following questions:
+  - What is the purpose of this product in the organization?
+  - What is the strategic vision for this product?
+  - What is the current problem that you are trying to solve by introducing this feature?
+  - What kind of value will this feature bring to the organization?
+  - What are your business goals?
+  - Do the business goals support the user goals?
+  - What are available licenses?
+  - Who are the users or customers?
+  - Why is this important to them?
+  - How many people are using this product?
+  - What are their pain points?
+  - Will the client administrator roles able to fulfil their day-to-day duties without this feature?
+  - Are there any constraints (time, budget, and resources)?
+  - How do you want it to work?
+
+B. UX designer
+  - What is your design process?
+  - What are current bad user experiences on this product?
+  - How do you plan on improving user experience?
+  - Will the new feature improve user experience?
+  - Does the current product design follow heuristic usability philosophy?
+  - Will this new feature follow heuristic usability philosophy?
+  - Are there any constraints?
+  - Is the feature designed to work on all devices and different screen size and resolutions?
+
+
+
+C. Technical Architect
+  - What is the technical architecture of this organization?
+  - What is the architecture of this product?
+  - How does it fit in the organizational architecture.
+  - Are there any constraints (technological, business, etc.)?
+  - Which technology will be used in designing this feature?
+
+Q2:
+I would like this feature to work based on the following approach:
+ - Grant client administrator roles different rights to these features:
+    (a) All client admin users must be able to add clients.
+    (b) Grant permission/rights to edit and delete to only seniors and team leads of the client administrator team.
+ - Ability to work on all devices including mobile ones.
+
+Q3:
+I would automate the following features:
+ - Logging in and out of the system for different client administrator user roles to see and assert the type of access and limitation they have.
+ - Adding of the new customer,
+ - Edit user details by an acceptable user role,
+ - Edit user details by a user role that does not have permission/rights to do so.
+ - Removing users by an acceptable user role,
+ - Removing users by a user role that does not have permission/rights to do so.

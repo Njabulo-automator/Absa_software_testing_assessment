@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: Assessment.TestCase1
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 3.08 sec <<< FAILURE!
+SetUp(Assessment.TestCase1)  Time elapsed: 0.865 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Utilities.WebdriverUtil.<init>(WebdriverUtil.java:32)
+	at Assessment.TestCase1.SetUp(TestCase1.java:53)
+
+SignUp(Assessment.TestCase1)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Assessment.TestCase1.SignUp(TestCase1.java:136)
+
+afterTest(Assessment.TestCase1)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Assessment.TestCase1.afterTest(TestCase1.java:167)
+

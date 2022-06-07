@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Properties>
+        <property name="filePattern">${date:yyyy-MM-dd-hh_mm_ss}</property>
+    </Properties>
+    <Appenders>
+        <File name="File" fileName="Logs/ORMS_Log_${filePattern}.log" append="false">
+            <PatternLayout
+                    pattern="%d{yyyy-MMM-dd hh:mm:ss a} [%t] %-5level %logger{36} - %msg%n" />
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="File" />
+        </Root>
+    </Loggers>
+</Configuration>
